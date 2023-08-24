@@ -1,0 +1,1 @@
+source C:/Users/kerem/OneDrive/Masaüstü/AiStudio/GbtApi/myenv/Scripts/activate

@@ -1,0 +1,116 @@
+Question,Extra Options,Answer,Main Topic,Sub Topic
+What is the release year of the first version of Python?,,"The first version of Python, known as Python 0.9.0, was released in February 1991.",Basic Information,Python history and features
+Which of the following is the correct way to install a Python package using pip?,,"The correct way to install a Python package using pip is by using the following command in the terminal or command prompt:
+
+```pip install <package_name>```
+
+Replace `<package_name>` with the name of the package you want to install. Make sure you have pip installed and that your system is configured correctly to run pip commands.",Basic Information,Installation and environment setup
+"What is the data type of the variable ""num"" in the following snippet of Python code?",,"To determine the data type of the variable ""num"" in the given Python code, we would need to see the code snippet. Could you please provide the code snippet?",Basic Information,Variables and data types
+Which function is used to take user input in Python?,,The correct answer is the `input()` function.,Basic Information,Simple input/output operations
+"What is the purpose of the ""elif"" statement in Python?",,"The purpose of the ""elif"" statement in Python is to provide an alternative condition to be checked if the initial ""if"" condition evaluates to false. It stands for ""else if"" and allows for multiple condition checks in a sequence. If none of the previous conditions are satisfied, the ""elif"" statement can be used to define another condition to be evaluated.",Control Structures,"Conditional statements (if, elif, else)"
+Which loop in Python is typically used when you know the number of iterations in advance?,,"The correct answer is the ""for"" loop. In Python, the ""for"" loop is typically used when you know the number of iterations in advance.",Control Structures,"Loops (for, while)"
+Which statement is used to exit a loop prematurely in Python?,,The correct statement used to exit a loop prematurely in Python is the `break` statement.,Control Structures,"Flow control (break, continue, pass)"
+Which of the following statements correctly defines a function in Python?,,"A correct definition of a function in Python is: 
+
+""A function in Python is a block of reusable code that performs a specific task. It takes in input values (called arguments), performs operations on them, and returns a result. Functions allow for code reusability, modularity, and abstraction.""",Functions,Function definition and calling
+Which of the following best describes a parameter in Python?,,"A parameter in Python can be best described as a variable that is passed into a function or method when it is called, and is used to represent either an input or output value for that function or method.",Functions,Parameters and return values
+Which of the following is a valid usage of an anonymous function (lambda) in Python?,,"One valid usage of an anonymous function (lambda) in Python is to use it as an argument in a higher-order function like map(), filter(), or reduce(). For example:
+
+1. Using lambda with map():
+   ```
+   nums = [1, 2, 3, 4, 5]
+   squares = map(lambda x: x**2, nums)
+   ```
+   This will create a new list containing the squares of each element in the nums list.
+
+2. Using lambda with filter():
+   ```
+   nums = [1, 2, 3, 4, 5]
+   even_nums = filter(lambda x: x % 2 == 0, nums)
+   ```
+   This will create a new list containing only the even numbers from the nums list.
+
+3. Using lambda with reduce():
+   ```
+   from functools import reduce
+   nums = [1, 2, 3, 4, 5]
+   product = reduce(lambda x, y: x * y, nums)
+   ```
+   This will calculate the product of all the numbers in the nums list.
+
+These are just a few examples of valid usages of anonymous functions in Python. The lambda function allows you to define a simple function inline, without the need for a separate function definition.",Functions,Anonymous functions (lambda)
+Which of the following statements is true about local and global variables in Python?,,"The correct answer is that local variables are defined within a specific function or block of code, while global variables are defined outside of any function and can be accessed throughout the entire program.",Functions,Local and global variables
+What is the correct way to create an empty list in Python?,,"The correct way to create an empty list in Python is by using empty square brackets: []
+
+Example: myList = []",Data Structures,Lists
+Which of the following statements is true about tuples in Python?,,The correct answer about tuples in Python is: Tuples are immutable and ordered sequences of elements.,Data Structures,Tuples
+Which of the following methods can be used to remove an item from a dictionary?,,"To remove an item from a dictionary in Python, you can use the `del` keyword, `dict.pop()`, or `dict.popitem()` methods. Here are the options:
+
+1. Using the `del` keyword:
+   ```
+   del dict[key]
+   ```
+
+2. Using the `dict.pop()` method:
+   ```
+   dict.pop(key)
+   ```
+
+3. Using the `dict.popitem()` method:
+   ```
+   dict.popitem()
+   ```
+
+These methods allow you to remove items from a dictionary based on a specific key (`del` and `dict.pop()`) or to remove the last item inserted (`dict.popitem()`).",Data Structures,Dictionaries
+Which of the following statements about sets in Python is true?,,The correct answer is: Sets in Python do not allow duplicate elements.,Data Structures,Sets
+Which of the following statements is true about class definitions in Python?,,The correct answer is that class definitions in Python are executed at runtime.,Object Oriented Programming (OOP),Class definitions
+Question: What is an object in Python?,,"In Python, an object is a data structure that contains both data (attributes) and functions (methods) that operate on that data. Every object in Python has a type, which determines what operations can be performed on it. Objects are created by using classes, which are like blueprints for creating instances of objects.",Object Oriented Programming (OOP),Objects and instances
+Which of the following statements about inheritance in Python is true?,,The correct answer depends on the available options. Could you please provide the options or specify the statement about inheritance that you are referring to?,Object Oriented Programming (OOP),Inheritance
+Which of the following best describes polymorphism in Python?,,"Polymorphism in Python refers to the ability of an object to take on different forms or behave differently depending on the context. It allows different objects to be treated as if they are instances of a common superclass, enabling code reuse and flexibility.",Object Oriented Programming (OOP),Polymorphism
+Which of the following correctly defines encapsulation in Python?,,"Encapsulation in Python is the concept of bundling data and the methods that operate on that data into a single unit, called a class. This allows for data hiding and abstraction by restricting access to the internal workings of the object and exposing only the necessary interface.",Object Oriented Programming (OOP),Encapsulation
+Which of the following statements is true about try-except blocks in Python?,,"The correct answer is: 
+
+Try-except blocks in Python are used for handling exceptions. They allow you to catch and handle errors that may occur during the execution of your code. By using a try-except block, you can specify the code that should be executed within the try block, and if an exception occurs, you can provide a specific action or error message to be executed in the except block.",Exception Handling,"Try, except blocks"
+Which of the following is NOT a built-in type of exception in Python?,,"The correct answer is ""KeyError"". ""KeyError"" is an exception raised when an invalid key is used to access a dictionary. It is not considered to be a built-in type of exception in Python.",Exception Handling,Types of exceptions
+What is the purpose of defining your own exceptions in Python?,,"The purpose of defining your own exceptions in Python is to handle specific errors or exceptional situations in your program. By defining custom exceptions, you can make your code more readable, maintainable, and expressive. It allows you to create exception classes tailored to your specific needs, and provide meaningfully distinct error messages or behavior for different types of exceptions. This can help with debugging and troubleshooting, as well as improving the overall robustness and reliability of your code.",Exception Handling,Defining your own exceptions
+Which of the following is the correct way to open a file in Python for reading?,,"The correct way to open a file in Python for reading is by using the ""open"" function with the ""r"" mode. The answer is:
+
+```
+open(""filename.txt"", ""r"")
+```",File Operations,"File open, read, write"
+"Which of the following best describes an absolute file path in Python?
+a) A file path that starts from the root directory of the file system
+b) A file path that starts from the current directory
+c) A file path that starts from the parent directory
+d) A file path that starts from the user's home directory","a) A file path that starts from the root directory of the file system, b) A file path that starts from the current directory, c) A file path that starts from the parent directory, d) A file path that starts from the user's home directory",The correct answer is a) A file path that starts from the root directory of the file system.,File Operations,File locations and paths
+What is the most common error that occurs when opening a file in Python?,,The most common error that occurs when opening a file in Python is the FileNotFoundError. This error occurs when the file being opened does not exist in the specified location.,File Operations,File related errors
+Which of the following is a built-in module in Python?,,"The correct answer is ""os"" (for operating system interface).",Modules and Packages,Built-in modules
+Which of the following statements is true about creating your own modules in Python?,,"The correct answer is: ""Creating your own modules in Python allows you to organize and reuse your code by grouping related functions, classes, and variables together.""",Modules and Packages,Creating your own modules
+Which keyword is used to import a package in Python?,,"The correct keyword to import a package in Python is ""import"".",Modules and Packages,Package usage and creation
+"Which Python standard library module is used for performing various operating system related operations, such as file and directory management?",,"The correct answer is the `os` module. It provides a way to interact with the operating system, including functionalities for file and directory management, process creation, environment variables, and more.",Basic Libraries,"Standard libraries like os, sys, datetime, math"
+Question: Which Python library is commonly used for making HTTP requests?,,"The correct answer is the ""requests"" library.",Basic Libraries,"Third-party libraries like requests, beautifulsoup4"
+"Which of the following is a Python library commonly used for connecting with databases like SQLite, MySQL, and PostgreSQL?",,"The correct answer is a Python library known as ""psycopg2"". It is commonly used for connecting with databases like SQLite, MySQL, and PostgreSQL.",Database Operations,"Connecting with databases like SQLite, MySQL, PostgreSQL"
+Which SQL keyword is used to select data from a table?,,"The correct answer is ""SELECT"".",Database Operations,SQL queries and operations
+Question:,,"I'm sorry, but I need more information to provide an accurate answer. Please provide the question.",Web Development,"Frameworks like Flask, Django"
+Which HTTP method is typically used for retrieving data from a RESTful API?,,The correct answer is GET.,Web Development,RESTful services
+Which library in Python is commonly used for numerical computing and data analysis?,,The correct answer is NumPy.,Data Science and Machine Learning,"Data processing libraries like NumPy, Pandas"
+"Which of the following is a popular machine learning library in Python that provides a wide range of algorithms and tools for data mining and analysis?
+a) scikit-learn
+b) TensorFlow
+c) PyTorch
+d) All of the above","a) scikit-learn, b) TensorFlow, c) PyTorch, d) All of the above",The correct answer is: a) scikit-learn.,Data Science and Machine Learning,"Machine learning libraries like scikit-learn, TensorFlow, PyTorch"
+Which of the following libraries can be used to create GUI applications in Python?,,"There are multiple libraries that can be used to create GUI applications in Python. Some popular ones are:
+
+1. Tkinter: This is the standard built-in library for creating GUI applications in Python. It provides a simple way to create windows, buttons, menus, and other GUI elements.
+
+2. PyQt: This is a binding of the Qt toolkit for Python. It allows you to create highly customizable and visually appealing GUI applications.
+
+3. PyGTK: This is a binding of the GTK+ toolkit for Python. It provides a set of easy-to-use widgets for creating GUI applications.
+
+4. wxPython: This is a binding of the wxWidgets toolkit for Python. It allows you to create cross-platform GUI applications with native look and feel.
+
+5. Kivy: This is an open-source Python library for developing multitouch applications. It is mainly used for creating mobile and tablet applications, but can also be used for desktop applications.
+
+The choice of library depends on your specific requirements and preferences.",Other Topics,"Creating GUI (like PyQt, Tkinter)"
+"What is the purpose of the ""await"" keyword in asynchronous programming using asyncio in Python?",,"In asynchronous programming using asyncio in Python, the ""await"" keyword is used to suspend the execution of a coroutine until a specific event occurs or until the result of another coroutine is returned. It allows other coroutines to run in the meantime, making the program more efficient and responsive.",Other Topics,Asynchronous programming (asyncio)
+Which of the following best describes a Python decorator?,,"A Python decorator is a design pattern that allows you to modify the behavior of a function or class without changing its source code. It is a function that takes a function as input and returns a new function with enhanced functionality. The correct answer is: ""A function that modifies the behavior of another function or class.""",Other Topics,"Advanced topics like decorators, generators"

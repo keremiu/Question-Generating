@@ -1,0 +1,242 @@
+Topic,Subtopic,Question,Options,Answer
+Basic Information,Python history and features,"What was the initial release year of the Python programming language? a) 1989
+b) 1990
+c) 1991
+d) 1992","a) 1989
+b) 1990
+c) 1991
+d) 1992",C
+Basic Information,Installation and environment setup,"Which of the following is NOT a recommended method for installing Python on a Windows system? a) Using the official Python installer from the Python website
+b) Using a package manager like Anaconda
+c) Using the Windows Store
+d) Downloading and building the source code manually","a) Using the official Python installer from the Python website
+b) Using a package manager like Anaconda
+c) Using the Windows Store
+d) Downloading and building the source code manually",D
+Basic Information,Variables and data types,"What is the correct data type for storing a whole number in Python? a) int
+b) float
+c) str
+d) bool","a) int
+b) float
+c) str
+d) bool",A
+Basic Information,Simple input/output operations,"Which of the following is the correct syntax to prompt the user for input and store it in a variable named ""name""? a) input(""Enter your name: "")
+b) name = input(""Enter your name: "")
+c) name = input(""Enter your name:)
+d) input(""Enter your name: "", name)","a) input(""Enter your name: "")
+b) name = input(""Enter your name: "")
+c) name = input(""Enter your name:)
+d) input(""Enter your name: "", name)",B
+Control Structures,"Conditional statements (if, elif, else)","Which of the following statements is true about conditional statements in Python? A) The 'if' statement is used to execute a block of code only if a certain condition is true.
+B) The 'else' statement is used to execute a block of code regardless of whether a certain condition is true or not.
+C) The 'elif' statement is used to check for multiple conditions and execute different blocks of code accordingly.
+D) All of the above. Please select the correct answer (A, B, C, or D).","A) The 'if' statement is used to execute a block of code only if a certain condition is true.
+B) The 'else' statement is used to execute a block of code regardless of whether a certain condition is true or not.
+C) The 'elif' statement is used to check for multiple conditions and execute different blocks of code accordingly.
+D) All of the above. Please select the correct answer (A, B, C, or D).",D
+Control Structures,"Flow control (break, continue, pass)","Which statement is used to exit a loop prematurely in Python? A) return
+B) break
+C) continue
+D) pass","A) return
+B) break
+C) continue
+D) pass",B
+Functions,Function definition and calling,"What is the correct syntax for defining a function in Python? A) def function_name:
+B) definition function_name():
+C) def function_name():
+D) function_name def():","A) def function_name:
+B) definition function_name():
+C) def function_name():
+D) function_name def():",C
+Functions,Parameters and return values,"Which of the following describes the purpose of parameters in Python functions? A) Parameters allow you to define and store values that can be used within a function.
+B) Parameters specify the data type of the values that a function can accept as input.
+C) Parameters determine the number of times a function can be called within a program.
+D) Parameters indicate the order in which the statements within a function are executed.","A) Parameters allow you to define and store values that can be used within a function.
+B) Parameters specify the data type of the values that a function can accept as input.
+C) Parameters determine the number of times a function can be called within a program.
+D) Parameters indicate the order in which the statements within a function are executed.",A
+Functions,Anonymous functions (lambda),"Which of the following statements is true about anonymous functions in Python? a) They can have any number of arguments.
+b) They can only have one argument.
+c) They cannot have any arguments.
+d) They can have a maximum of three arguments.","a) They can have any number of arguments.
+b) They can only have one argument.
+c) They cannot have any arguments.
+d) They can have a maximum of three arguments.",B
+Functions,Local and global variables,"Which of the following statements is true about local and global variables in Python? A) Local variables are declared within a function and can only be accessed within that function, while global variables are declared outside of any function and can be accessed from anywhere in the code.
+B) Local variables are declared outside of any function and can be accessed from anywhere in the code, while global variables are declared within a function and can only be accessed within that function.
+C) Both local and global variables can be accessed from anywhere in the code, but local variables are declared within a function and global variables are declared outside of any function.
+D) Both local and global variables can only be accessed within the function where they are declared, but local variables are declared inside a loop and global variables are declared outside of a loop.","A) Local variables are declared within a function and can only be accessed within that function, while global variables are declared outside of any function and can be accessed from anywhere in the code.
+B) Local variables are declared outside of any function and can be accessed from anywhere in the code, while global variables are declared within a function and can only be accessed within that function.
+C) Both local and global variables can be accessed from anywhere in the code, but local variables are declared within a function and global variables are declared outside of any function.
+D) Both local and global variables can only be accessed within the function where they are declared, but local variables are declared inside a loop and global variables are declared outside of a loop.",A
+Data Structures,Lists,"Which of the following operations in Python is used to add an element at the end of a list? a) append()
+b) remove()
+c) extend()
+d) insert()","a) append()
+b) remove()
+c) extend()
+d) insert()",A
+Data Structures,Tuples,"Which of the following statements is true about tuples in Python? A) Tuples are mutable sequences.
+B) Tuples are denoted by square brackets.
+C) Tuples can contain elements of different data types.
+D) Tuples can be resized or modified after creation.","A) Tuples are mutable sequences.
+B) Tuples are denoted by square brackets.
+C) Tuples can contain elements of different data types.
+D) Tuples can be resized or modified after creation.",C
+Data Structures,Sets,"Which of the following statements about sets in Python is true? A) Sets are ordered collections of elements.
+B) Sets can contain duplicate values.
+C) Sets can be accessed using indexing.
+D) Sets are mutable and can be modified after creation.","A) Sets are ordered collections of elements.
+B) Sets can contain duplicate values.
+C) Sets can be accessed using indexing.
+D) Sets are mutable and can be modified after creation.",D
+Object Oriented Programming (OOP),Class definitions,"Question: What is the purpose of a constructor method in a Python class? a) To create an instance of the class
+b) To define attributes and methods of the class
+c) To initialize the attributes of an object when it is created
+d) To define the behavior of the class Answer: c) To initialize the attributes of an object when it is created","a) To create an instance of the class
+b) To define attributes and methods of the class
+c) To initialize the attributes of an object when it is created
+d) To define the behavior of the class Answer: c) To initialize the attributes of an object when it is created",C
+Object Oriented Programming (OOP),Objects and instances,"Which of the following statements about objects and instances in Python is true? A) Objects are created from classes, while instances are created from objects.
+B) Objects and instances are the same thing and can be used interchangeably.
+C) Objects represent the blueprint for creating instances.
+D) Instances represent the blueprint for creating objects.","A) Objects are created from classes, while instances are created from objects.
+B) Objects and instances are the same thing and can be used interchangeably.
+C) Objects represent the blueprint for creating instances.
+D) Instances represent the blueprint for creating objects.",C
+Object Oriented Programming (OOP),Inheritance,"Which of the following statements about inheritance in Python is correct? A) Inheritance allows a child class to inherit all the attributes and methods of the parent class.
+B) Inheritance allows a parent class to inherit all the attributes and methods of the child class.
+C) Inheritance allows a child class to override the attributes and methods of the parent class.
+D) Inheritance allows a parent class to override the attributes and methods of the child class.","A) Inheritance allows a child class to inherit all the attributes and methods of the parent class.
+B) Inheritance allows a parent class to inherit all the attributes and methods of the child class.
+C) Inheritance allows a child class to override the attributes and methods of the parent class.
+D) Inheritance allows a parent class to override the attributes and methods of the child class.",A
+Exception Handling,"Try, except blocks",Which of the following statements best describes the purpose of a try-except block in Python? A) To handle and recover from exceptions that may occur during the execution of a block of code. B) To execute a specific block of code only if an exception occurs during the execution of another block of code. C) To prevent specific exceptions from occurring during the execution of a block of code. D) To terminate the execution of a program if an exception occurs during the execution of a block of code.,A) To handle and recover from exceptions that may occur during the execution of a block of code. B) To execute a specific block of code only if an exception occurs during the execution of another block of code. C) To prevent specific exceptions from occurring during the execution of a block of code. D) To terminate the execution of a program if an exception occurs during the execution of a block of code.,A
+Exception Handling,Types of exceptions,"Which of the following is a built-in exception in Python? a) IOError
+b) ValueError
+c) IndexError
+d) All of the above","a) IOError
+b) ValueError
+c) IndexError
+d) All of the above",D
+Exception Handling,Defining your own exceptions,"Which of the following statements correctly defines a custom exception in Python? A) Custom exceptions in Python must inherit from the `Exception` class.
+B) Custom exceptions in Python must inherit from the `BaseException` class.
+C) Custom exceptions in Python can inherit from any built-in or user-defined class.
+D) Custom exceptions in Python do not need to inherit from any existing class.","A) Custom exceptions in Python must inherit from the `Exception` class.
+B) Custom exceptions in Python must inherit from the `BaseException` class.
+C) Custom exceptions in Python can inherit from any built-in or user-defined class.
+D) Custom exceptions in Python do not need to inherit from any existing class.",A
+File Operations,"File open, read, write","Which of the following Python code snippets opens a file in write mode and writes the string ""Hello, World!"" to it? A) file = open(""data.txt"", ""r"")
+   file.write(""Hello, World!"") B) file = open(""data.txt"", ""w"")
+   file.write(""Hello, World!"") C) file = open(""data.txt"", ""a"")
+   file.write(""Hello, World!"") D) file = open(""data.txt"", ""x"")
+   file.write(""Hello, World!"") Please select the correct option (A, B, C, or D).","A) file = open(""data.txt"", ""r"")
+B) file = open(""data.txt"", ""w"")
+C) file = open(""data.txt"", ""a"")
+D) file = open(""data.txt"", ""x"")
+D) .",B
+File Operations,File locations and paths,"Which of the following is the correct way to specify a path to a file in Python? a) C:\Users\myusername\Documents\myfile.txt
+b) /Users/myusername/Documents/myfile.txt
+c) C:/Users/myusername/Documents/myfile.txt
+d) All of the above Please select the correct option (a, b, c, or d).","a) C:\Users\myusername\Documents\myfile.txt
+b) /Users/myusername/Documents/myfile.txt
+c) C:/Users/myusername/Documents/myfile.txt
+d) All of the above Please select the correct option (a, b, c, or d).",D
+File Operations,File related errors,"Which of the following is a common File related error in Python? A) FileNotFoundError
+B) TypeError
+C) IndexError
+D) ValueError","A) FileNotFoundError
+B) TypeError
+C) IndexError
+D) ValueError",A
+Modules and Packages,Built-in modules,"Which of the following is a built-in module in Python? A) NumPy
+B) Pandas
+C) Math
+D) Requests","A) NumPy
+B) Pandas
+C) Math
+D) Requests",C
+Modules and Packages,Creating your own modules,"Which of the following statements is true about creating your own modules in Python? a) Modules can only contain functions.
+b) Modules can only contain variables.
+c) Modules can contain both functions and variables.
+d) Modules can only be imported, but not created. Please select the correct answer (a, b, c, or d).","a) Modules can only contain functions.
+b) Modules can only contain variables.
+c) Modules can contain both functions and variables.
+d) Modules can only be imported, but not created. Please select the correct answer (a, b, c, or d).",C
+Modules and Packages,Package usage and creation,"Which of the following statements is true about Python packages? A) Packages are used to organize related modules into a single directory hierarchy.
+B) Packages can only contain Python scripts and cannot include other files or data.
+C) Packages are automatically installed with Python and do not require any additional steps.
+D) Packages cannot be created or modified by users; they are pre-defined by the Python language.","A) Packages are used to organize related modules into a single directory hierarchy.
+B) Packages can only contain Python scripts and cannot include other files or data.
+C) Packages are automatically installed with Python and do not require any additional steps.
+D) Packages cannot be created or modified by users; they are pre-defined by the Python language.",A
+Basic Libraries,"Standard libraries like os, sys, datetime, math","Which of the following standard libraries in Python is used for performing various operating system related tasks, such as creating directories, deleting files, and executing system commands? A) os
+B) sys
+C) datetime
+D) math","A) os
+B) sys
+C) datetime
+D) math",A
+Basic Libraries,"Third-party libraries like requests, beautifulsoup4","Question: Which of the following third-party libraries is commonly used for making HTTP requests in Python? A) BeautifulSoup
+B) requests
+C) urllib
+D) re Answer: B) requests","A) BeautifulSoup
+B) requests
+C) urllib
+D) re Answer: B) requests",B
+Database Operations,"Connecting with databases like SQLite, MySQL, PostgreSQL","Which module in Python is commonly used for connecting with databases like SQLite, MySQL, and PostgreSQL? a) sqlconnect
+b) dbconnect
+c) pydb
+d) psycopg2","a) sqlconnect
+b) dbconnect
+c) pydb
+d) psycopg2",D
+Database Operations,SQL queries and operations,"Which SQL keyword is used to retrieve data from a database table? a) SELECT
+b) UPDATE
+c) DELETE
+d) INSERT","a) SELECT
+b) UPDATE
+c) DELETE
+d) INSERT",A
+Web Development,"Frameworks like Flask, Django","Which of the following frameworks is commonly used for developing web applications in Python? A) Flask
+B) Django
+C) Pygame
+D) NumPy","A) Flask
+B) Django
+C) Pygame
+D) NumPy",B
+Web Development,RESTful services,"Question: Which HTTP method is typically used for creating a new resource in a RESTful service? A) GET
+B) POST
+C) PUT
+D) DELETE","A) GET
+B) POST
+C) PUT
+D) DELETE",B
+Data Science and Machine Learning,"Data processing libraries like NumPy, Pandas","Which of the following libraries is commonly used for data processing and analysis in Python? A) TensorFlow
+B) NumPy
+C) Flask
+D) Matplotlib","A) TensorFlow
+B) NumPy
+C) Flask
+D) Matplotlib",B
+Data Science and Machine Learning,"Machine learning libraries like scikit-learn, TensorFlow, PyTorch","Which of the following libraries is primarily used for deep learning tasks in Python? a) scikit-learn
+b) TensorFlow
+c) PyTorch
+d) NumPy","a) scikit-learn
+b) TensorFlow
+c) PyTorch
+d) NumPy",B
+Other Topics,"Creating GUI (like PyQt, Tkinter)","Which module is commonly used to create graphical user interfaces (GUI) in Python? a) PyQt
+b) Tkinter
+c) Kivy
+d) All of the above","a) PyQt
+b) Tkinter
+c) Kivy
+d) All of the above",D
+Other Topics,"Advanced topics like decorators, generators","Question: What is the purpose of a decorator in Python? A) Decorators are used to add extra functionality to an existing function or class.
+B) Decorators are used to change the behavior of a function or class.
+C) Decorators are used to implement design patterns in Python.
+D) Decorators are used to improve the performance of a function or class. Correct answer: A) Decorators are used to add extra functionality to an existing function or class.","A) Decorators are used to add extra functionality to an existing function or class.
+B) Decorators are used to change the behavior of a function or class.
+C) Decorators are used to implement design patterns in Python.
+D) Decorators are used to improve the performance of a function or class. Correct answer: A) Decorators are used to add extra functionality to an existing function or class.",A

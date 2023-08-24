@@ -1,0 +1,29 @@
+Question,Extra Options,Answer
+"1. What does the ""print"" function do in Python?
+a) Display output on the console
+b) Prompt the user for input
+c) Store a value in memory
+d) Sort a list of items","a) Display output on the console, b) Prompt the user for input, c) Store a value in memory, d) Sort a list of items","The correct answer for question 1 is a) Display output on the console. The ""print"" function in Python is used to display messages or values on the console or terminal."
+"2. Which of the following is not a valid data type in Python?
+a) int
+b) float
+c) string
+d) boolean","a) int, b) float, c) string, d) boolean",The correct answer is d) boolean.
+"3. What is the output of the following code snippet?
+x = 5
+y = 2
+print(x // y)
+a) 2.5
+b) 2
+c) 2.0
+d) 2.75","x = 5, y = 2, print(x // y), a) 2.5, c) 2.0, d) 2.75",b) 2
+"4. What is the purpose of a ""for"" loop in Python?
+a) Perform a task a fixed number of times
+b) Iterate over elements in a collection
+c) Execute code only if a condition is true
+d) Create a new function","a) Perform a task a fixed number of times, b) Iterate over elements in a collection, c) Execute code only if a condition is true, d) Create a new function","The correct answer for 4. What is the purpose of a ""for"" loop in Python is: b) Iterate over elements in a collection"
+"5. Which of the following statements accurately describes the difference between ""=="" and ""is"" in Python?
+a) Both operators test for equality, but ""is"" is used for comparing strings
+b) ""=="" tests for value equality, while ""is"" tests for object identity
+c) ""=="" tests for object identity, while ""is"" tests for value equality
+d) Both operators test for object identity, but ""is"" is used for comparing integers","a) Both operators test for equality, but ""is"" is used for comparing strings, b) ""=="" tests for value equality, while ""is"" tests for object identity, c) ""=="" tests for object identity, while ""is"" tests for value equality, d) Both operators test for object identity, but ""is"" is used for comparing integers","The correct answer is b) ""=="" tests for value equality, while ""is"" tests for object identity."
