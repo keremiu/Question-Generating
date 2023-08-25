@@ -1,7 +1,7 @@
 import openai
 import pandas as pd
 
-openai.api_key = "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"
+openai.api_key = "your_api_key"
 
 def generate_questions(difficulty, topic="", n=1):
     base_prompts = {
