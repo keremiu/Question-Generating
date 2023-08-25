@@ -2,7 +2,7 @@ import openai
 import pandas as pd
 import numpy as np
 import re
-openai.api_key = "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"
+openai.api_key = "your_api_key"
 
 topics = {
     "Basic Information": ["Python history and features", "Installation and environment setup", "Variables and data types", "Simple input/output operations"],
